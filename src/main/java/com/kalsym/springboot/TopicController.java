@@ -27,6 +27,11 @@ public class TopicController {
     private TopicService ts;
     
     
+    @RequestMapping("/")
+    public String HelloWorld(){
+        return "Hello World";
+    }
+
     @RequestMapping("/hello")
     public String sayHi(){
         return "Hi";

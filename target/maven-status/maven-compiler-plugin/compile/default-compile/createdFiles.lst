@@ -1,8 +1,8 @@
 com\kalsym\springboot\TopicService.class
+com\kalsym\springboot\App.class
 com\kalsym\springboot\TopicController.class
 com\kalsym\springboot\CourseController.class
 com\kalsym\springboot\Course.class
-com\kalsym\springboot\springboot.class
 com\kalsym\springboot\CourseRepository.class
 com\kalsym\springboot\CourseService.class
 com\kalsym\springboot\TopicRepository.class
