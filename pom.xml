@@ -37,10 +37,12 @@
     </dependencies>
     
     <build>
+        <pluginManagement>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>1.5.9.RELEASE</version>
                 <configuration>
                     <archive>
                         <manifest>
@@ -51,6 +53,7 @@
                 </configuration>
             </plugin>
         </plugins>
+        </pluginManagement>
     </build>    
     
     <properties>
