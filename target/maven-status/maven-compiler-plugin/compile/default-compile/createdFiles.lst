@@ -11,7 +11,6 @@ com\kalsym\springboot\TopicRepository.class
 com\kalsym\topic\Topic.class
 com\kalsym\topic\TopicRepository.class
 com\kalsym\course\CourseController.class
-com\kalsym\springboot\App.class
 com\kalsym\course\CourseService.class
 com\kalsym\app\HttpClientExample.class
 com\kalsym\opportunity\OpportunityService.class
@@ -19,4 +18,5 @@ com\kalsym\topic\TopicService.class
 com\kalsym\opportunity\Opportunity.class
 com\kalsym\springboot\Course.class
 com\kalsym\springboot\Topic.class
+com\kalsym\App.class
 com\kalsym\dao\CourseRepository.class
