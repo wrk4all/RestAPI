@@ -2,29 +2,28 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="4309" started-at="2019-08-01T18:38:32Z" finished-at="2019-08-01T18:38:37Z">
+  <suite name="Surefire suite" duration-ms="9562" started-at="2019-08-02T15:40:41Z" finished-at="2019-08-02T15:40:51Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="4309" started-at="2019-08-01T18:38:32Z" finished-at="2019-08-01T18:38:37Z">
+    <test name="Surefire test" duration-ms="9562" started-at="2019-08-02T15:40:41Z" finished-at="2019-08-02T15:40:51Z">
       <class name="getRequest.GetData">
-        <test-method status="PASS" signature="testResponsecode()[pri:0, instance:getRequest.GetData@6a2bcfcb]" name="testResponsecode" duration-ms="3301" started-at="2019-08-01T18:38:32Z" finished-at="2019-08-01T18:38:36Z">
+        <test-method status="PASS" signature="testShipToAddr()[pri:0, instance:getRequest.GetData@6a2bcfcb]" name="testShipToAddr" duration-ms="7294" started-at="2019-08-02T15:40:41Z" finished-at="2019-08-02T15:40:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testResponsecode -->
-        <test-method status="FAIL" signature="testResponsecode1()[pri:0, instance:getRequest.GetData@6a2bcfcb]" name="testResponsecode1" duration-ms="947" started-at="2019-08-01T18:38:36Z" finished-at="2019-08-01T18:38:37Z">
+        </test-method> <!-- testShipToAddr -->
+        <test-method status="FAIL" signature="testSohdrContact()[pri:0, instance:getRequest.GetData@6a2bcfcb]" name="testSohdrContact" duration-ms="2224" started-at="2019-08-02T15:40:49Z" finished-at="2019-08-02T15:40:51Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [403] but found [200]]]>
+              <![CDATA[expected [200] but found [500]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [403] but found [200]
+              <![CDATA[java.lang.AssertionError: expected [200] but found [500]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:652)
-at org.testng.Assert.assertEquals(Assert.java:662)
-at getRequest.GetData.testResponsecode1(GetData.java:30)
+at org.testng.Assert.assertEquals(Assert.java:442)
+at getRequest.GetData.testSohdrContact(GetData.java:49)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -60,7 +59,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testResponsecode1 -->
+        </test-method> <!-- testSohdrContact -->
       </class> <!-- getRequest.GetData -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->

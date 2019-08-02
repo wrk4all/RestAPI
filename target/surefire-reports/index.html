@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Surefire_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="getRequest.GetData" hash-for-method="testResponsecode1">testResponsecode1</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="getRequest.GetData" hash-for-method="testSohdrContact">testSohdrContact</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Surefire_suite -->
@@ -116,7 +116,7 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="getRequest.GetData" hash-for-method="testResponsecode">testResponsecode</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="getRequest.GetData" hash-for-method="testShipToAddr">testShipToAddr</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -139,12 +139,12 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testResponsecode1">
-                  </a> <!-- testResponsecode1 -->
-                  <span class="method-name">testResponsecode1</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [403] but found [200]
-	at getRequest.GetData.testResponsecode1(GetData.java:30)
-... Removed 36 stack frames
+                  <a name="testSohdrContact">
+                  </a> <!-- testSohdrContact -->
+                  <span class="method-name">testSohdrContact</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [500]
+	at getRequest.GetData.testSohdrContact(GetData.java:49)
+... Removed 35 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -158,9 +158,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testResponsecode">
-                  </a> <!-- testResponsecode -->
-                  <span class="method-name">testResponsecode</span>
+                  <a name="testShipToAddr">
+                  </a> <!-- testShipToAddr -->
+                  <span class="method-name">testShipToAddr</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -218,18 +218,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testResponsecode')
+data.setCell(0, 1, 'testShipToAddr')
 data.setCell(0, 2, 'getRequest.GetData')
-data.setCell(0, 3, 3301);
+data.setCell(0, 3, 7294);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testResponsecode1')
+data.setCell(1, 1, 'testSohdrContact')
 data.setCell(1, 2, 'getRequest.GetData')
-data.setCell(1, 3, 947);
+data.setCell(1, 3, 2224);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -257,14 +257,14 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">getRequest.GetData</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">testResponsecode</span>
+                <span class="method-name">testShipToAddr</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">testResponsecode1</span>
-                <span class="method-start">3306 ms</span>
+                <span class="method-name">testSohdrContact</span>
+                <span class="method-start">7296 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

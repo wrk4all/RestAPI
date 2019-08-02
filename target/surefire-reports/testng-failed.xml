@@ -5,7 +5,7 @@
     <classes>
       <class name="getRequest.GetData">
         <methods>
-          <include name="testResponsecode1"/>
+          <include name="testSohdrContact"/>
         </methods>
       </class> <!-- getRequest.GetData -->
     </classes>
