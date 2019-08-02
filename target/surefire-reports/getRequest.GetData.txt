@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: getRequest.GetData
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.293 s <<< FAILURE! - in getRequest.GetData
+testResponsecode1(getRequest.GetData)  Time elapsed: 0.975 s  <<< FAILURE!
+java.lang.AssertionError: expected [403] but found [200]
+	at getRequest.GetData.testResponsecode1(GetData.java:30)
+
